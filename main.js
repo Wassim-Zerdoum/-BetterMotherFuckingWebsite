@@ -26,3 +26,8 @@ if (window.confirm("Envi d'aller sur xxxvidsxxx ?Cliques sur OK !")) {
    
     window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 }
+
+/*
+ceci est un commentaire TEST 
+
+*/
