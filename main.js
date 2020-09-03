@@ -1,33 +1,29 @@
 
-var myButton = document.getElementById("myButton");
-var background = document.getElementsByTagName("body");
-var paragraphs = document.getElementsByTagName("p");
-var heading = document.getElementsByClassName("heading");
+var button = document.getElementById("button");
+var body = document.getElementsByTagName("body");
+var paragraphsTag = document.getElementsByTagName("p");
+var headerTitle = document.getElementsByClassName("headerTitle");
 
-myButton.onclick = function() {
+button.onclick = function() {
 
-    background[0].style.backgroundColor = "magenta";
+    body[0].style.backgroundColor = "magenta";
     
-    for(let i = 0; i < paragraphs.length; i++) {
+    for(let i = 0; i < paragraphsTag.length; i++) {
 
-         paragraphs[i].style.color = "blue";
-         paragraphs[i].style.fontFamily= "courier";
+         paragraphsTag[i].style.color = "blue";
+         paragraphsTag[i].style.fontFamily= "courier";
     }
-    for(let j = 0; j < heading.length; j++) {
+    for(let j = 0; j < headerTitle.length; j++) {
 
-        heading[j].style.color = "green";
-        heading[j].style.fontFamily = "Comic Sans MS";
+        headerTitle[j].style.color = "green";
+        headerTitle[j].style.fontFamily = "Comic Sans MS";
     }
   
 }
 
 
-if (window.confirm("Envi d'aller sur xxxvidsxxx ?Cliques sur OK !")) { 
+if (window.confirm("Envi de visiter xxxvidsxxx ? Cliquez sur  Ok.")) { 
    
     window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 }
 
-/*
-ceci est un commentaire TEST 
-
-*/
